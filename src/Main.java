@@ -3,14 +3,14 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //Task 1 - Ex 1
-        byte[] arrayInt11 = new byte[]{1, 2, 3};
+        byte[] arrayInt11 = new byte[3];
+        arrayInt11[0] = 1;
+        arrayInt11[1] = 2;
+        arrayInt11[2] = 3;
         //Task 1 - Ex 2
         float[] arrayFloat = {1.57f, 7.654f, 9.986f};
         //Task 1 - Ex 3
-        String[] arrayInt13 = new String[5];
-        Arrays.fill(arrayInt13, 0, 2, "Hello");
-        Arrays.fill(arrayInt13, 2, 4, "new");
-        Arrays.fill(arrayInt13, 4, 5, "world");
+        String[] arrayInt13 = {"Hello", "new", "world"};
         //Task 2 - Ex 1,2,3
         for (int i = 0; i < arrayInt11.length; i++) {
             if (i == arrayInt11.length - 1) {
